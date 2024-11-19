@@ -1,0 +1,8 @@
+# don't include database credentials
+public/includes/dbConfig.php
+# don't include password
+public/upload/.htpasswd
+# .htaccess on live server will be different
+public/upload/.htaccess
+# bayes viewer repo
+public/viewer
